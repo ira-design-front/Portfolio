@@ -90,7 +90,7 @@ header {
   margin-right: 200px;
 }
 
-.section-conteiner-home {
+.section-container-home {
   position: relative;
   width: 100%;
   height: 90%;
@@ -101,7 +101,7 @@ header {
   padding: 16px 0;
 }
 
-.section-conteiner-about {
+.section-container-about {
   position: relative;
   max-height: 750px;
   margin-right: 200px;
@@ -114,7 +114,7 @@ header {
 
 }
 
-.section-conteiner-projects {
+.section-container-projects {
   position: relative;
   margin-right: 168px;
   margin-left: 168px;
@@ -124,7 +124,7 @@ header {
   
 }
 
-.section-conteiner-contact {
+.section-container-contact {
   position: relative;
   margin-right: 168px;
   margin-left: 168px;
