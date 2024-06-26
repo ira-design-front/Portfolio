@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Site</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="header">
+        <a href="index.html" class="header-logo">Iryna Potapenko</a>
+        <div class="header-right">
+          <a href="" class="nav-item">About</a>
+          <a href="" class="nav-item">Projects</a>
+          <a href="" class="nav-item">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="section-conteiner-home">
+        <div class="background-image">
+          <div>
+            <img src="personal_photo.jpg" alt="photo of woman" id="hero-image">
+          </div>
+          <div class="home-text">
+            <h1>Hello!<br>I'm Iryna Potapenko</h1>
+            <h3>A Freelance Frontend Developer Trainee</h3>
+          </div>
+          <div class="social-media">
+            <a href="github" class="icon"><img src="github.svg" alt="ginhub logo"></a>
+            <a href="linkedin" class="icon"><img src="linkedin.svg" alt="linkedin logo"></a>
+            <a href="facebook" class="icon"><img src="facebook.svg" alt="facebook logo"></a>
+          </div>
+        </div>
+      </section>
+      <section class="section-conteiner-about">
+        <h2>About</h2>
+        <p>I am a dedicated Frontend Developer trainee, currently learning HTML and CSS. I focus on creating visually
+          appealing and user-friendly web experiences
+        </p>
+        <div class="about-info">
+          <div class="services">
+            <ul>
+              <h4 class="subtitle">Services</h4>
+              <li class="about-items-list">
+                <img class="image" src="ui.png">
+                <span class="about-items-title">UI Design</span>
+              </li>
+              <li class="about-items-list">
+                <img class="image" src="ux.png">
+                <span class="about-items-title">UX Design</span>
+              </li>
+              <li class="about-items-list">
+                <img class="image" src="app-design.png">
+                <span class="about-items-title">App Design</span>
+              </li>
+              <li class="about-items-list">
+                <img class="image" src="front.png">
+                <span class="about-items-title">Development</span>
+              </li>
+            </ul>
+          </div>
+          <div class="services">
+            <ul class="about-items" id="right-container">
+              <h4 class="subtitle">Tools</h4>
+              <li class="about-items-list">
+                <img class="image" src="figma-logo.png">
+                <span class="about-items-title">Figma</span>
+              </li>
+              <li class="about-items-list">
+                <img class="image" src="html-logo.png">
+                <span class="about-items-title">HTML</span>
+              </li>
+              <li class="about-items-list">
+                <img class="image" src="css-logo.png">
+                <span class="about-items-title">CSS</span>
+              </li>
+              <li class="about-items-list">
+                <img class="image" src="vs-code-logo.png">
+                <span class="about-items-title">VS Code</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+      <section class="section-conteiner-projects">
+        <h2>Projects</h2>
+        <ul class="project-list">
+          <li class="project-item">
+            <a><img class="project-img" src="porfolio-cover.jpg"></a>
+            <h4 class="subtitle" id="project-title">Portfolio</h4>
+          </li>
+          <li class="project-item">
+            <a><img class="project-img" src="restaurant-cover.jpg"></a>
+            <h4 class="subtitle" id="project-title">Restaurant Menu</h4>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section-conteiner-contact">
+        <h2 id="contact-title">Contact</h2>
+        <div class="form-container">
+          <img class="contact-image" src="contact-image.jpg">
+          <div class="contact-form">
+        <form>
+          <label for="name" class="label-form">Name</label><br>
+          <input class="form-control" type="text" placeholder="Your Name" id="name" minlength="2" required/>
+          <br><br>
+          <label for="email" class="label-form">Email</label><br>
+          <input class="form-control" type="email" placeholder="Email" id="email" minlength="2" required/>
+          <br><br>
+          <label for="subject" class="label-form">Subject</label><br>
+          <input class="form-control" type="text" placeholder="Subject" id="subject" minlength="2"/>
+          <br><br>
+          <label for="message" class="label-form">Message</label><br>
+          <textarea class="form-control" id="message" placeholder="Write your message here" maxlength="250" rows="4" cols="40" required></textarea>
+          <br><br>
+          <input type="submit" value="Send message" class="primary-button"/>
+          </form>
+          </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
